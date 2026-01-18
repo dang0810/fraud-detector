@@ -1,4 +1,4 @@
-# 🔍 Transaction Fraud Detector
+# Transaction Fraud Detector
 
 A lightweight, rule-based fraud detection engine designed to identify high-risk financial activities. Built with Python and Streamlit for easy visualization.
 
@@ -6,18 +6,18 @@ A lightweight, rule-based fraud detection engine designed to identify high-risk 
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🌐 Live Demo
+## Live Demo
 
 Website URL: https://fraud-detector-csv.streamlit.app/
 
-## 🎯 Features
+## Features
 
 - **Rule-based Detection** - Interpretable flags tied to specific business rules
 - **Interactive Dashboard** - Streamlit web app for easy analysis
 - **CSV Upload** - Analyze your own transaction data
 - **Real-time Metrics** - View flagged transactions with visualizations
 
-## 📋 Detection Rules
+## Detection Rules
 
 | Rule | Description |
 |------|-------------|
@@ -25,7 +25,7 @@ Website URL: https://fraud-detector-csv.streamlit.app/
 | **Unusual Country** | Transactions from non-authorized jurisdictions (outside CA/US) |
 | **High Frequency** | Multiple transactions within 60 seconds (potential bot/scam) |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -56,30 +56,8 @@ python main.py
 pytest tests/ -v
 ```
 
-## 📁 Project Structure
 
-```
-fraud-detector/
-├── app.py              # Streamlit web application
-├── main.py             # CLI entry point
-├── requirements.txt    # Python dependencies
-├── transactions.csv    # Sample data
-├── src/
-│   ├── __init__.py
-│   └── detector.py     # Core detection logic
-├── tests/
-│   └── test_detector.py
-└── .streamlit/
-    └── config.toml     # Streamlit theme config
-```
-
-## 🏦 Why This Fits Banking
-
-- **Interpretability** - Every flag is tied to a specific business rule (Auditable)
-- **Reliability** - Built with modular code and unit testing
-- **Domain Focus** - Directly addresses Fraud Detection and Risk Management
-
-## 📊 CSV Format
+## CSV Format
 
 Your CSV file should contain these columns:
 
