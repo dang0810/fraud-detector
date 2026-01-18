@@ -6,6 +6,10 @@ A lightweight, rule-based fraud detection engine designed to identify high-risk 
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 🌐 Live Demo
+
+Website URL: https://fraud-detector-csv.streamlit.app/
+
 ## 🎯 Features
 
 - **Rule-based Detection** - Interpretable flags tied to specific business rules
@@ -86,20 +90,5 @@ Your CSV file should contain these columns:
 | `country` | string | 2-letter country code |
 | `time` | datetime | Transaction timestamp |
 
-## 🌐 Live Demo
 
-Deploy your own instance on [Streamlit Community Cloud](https://streamlit.io/cloud):
 
-1. Fork this repository
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub and select this repo
-4. Set `app.py` as the main file
-5. Click Deploy!
-
-## 📝 License
-
-MIT License - feel free to use this project for learning and development.
-
----
-
-Built with ❤️ using Python and Streamlit
